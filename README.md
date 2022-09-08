@@ -2,7 +2,7 @@
 Created by Zach Nichols
 
 ### Requires
-- [Python](https://www.google.com](https://www.python.org/)
+- <a href = "https://www.google.com](https://www.python.org/" >Python</a>
 
 ### How it works:
 ```
