@@ -1,6 +1,5 @@
 from os import system, name
-from time import sleep
-from turtle import pos, position      
+from time import sleep 
 
 def tie_check(positions):
     for i in range(3):
@@ -37,7 +36,7 @@ def pick_spot(player, positions):
             cpuCords = [0, i]
             return cpuCords
     #Checks for diagonal line \
-    if positions[0][0] == player and positions[1][1] == player == player:
+    if positions[0][0] == player and positions[1][1] == player:
         cpuCords = [2, 2]
         return cpuCords
     if positions[1][1] == player and positions[2][2] == player:
